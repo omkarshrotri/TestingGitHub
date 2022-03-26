@@ -27,9 +27,14 @@ public class Practice {
 		for (WebElement ref:radiobuttons) {
 			String s=ref.getAttribute("value");
 			System.out.println(s);
+		
 			
         driver.close();
         
+        System.out.println("UPDATE");
+        System.out.println("UPDATE");
+        System.out.println("UPDATE");
+        System.out.println("UPDATE");
 	}
 	}
 }
