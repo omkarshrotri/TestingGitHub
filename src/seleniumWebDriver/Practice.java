@@ -9,6 +9,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Practice {
+	
+	public void getdata() {
+		System.out.println("modified code");  
+	}
 
 	public static void main(String[] args) throws InterruptedException  {
 		System.setProperty("webdriver.chrome.driver","E:\\User data\\HP\\Downloads\\chromedriver_win32\\chromedriver.exe");
